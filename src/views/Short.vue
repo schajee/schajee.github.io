@@ -62,7 +62,7 @@
             <th scope="row">{{ item.period }}</th>
             <td>{{ item.designation }}</td>
             <td>
-              <a :href="item.url" target="_blank">{{ item.organization }}</a>
+              <a :href="item.url" target="_blank" rel="noopener">{{ item.organization }}</a>
             </td>
             <td>{{ item.sector }}</td>
           </tr>
@@ -85,7 +85,7 @@
             <th scope="row">{{ item.period }}</th>
             <td>{{ item.major }}</td>
             <td>
-              <a :href="item.url" target="_blank">{{ item.university }}</a>
+              <a :href="item.url" target="_blank" rel="noopener">{{ item.university }}</a>
             </td>
           </tr>
         </tbody>
