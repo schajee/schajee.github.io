@@ -44,9 +44,17 @@
         "Multimedia and Graphic Design"
     ],
     "employment": [
+        { 
+            "id": 0,
+            "period": "2023 till date",
+            "designation": "Chief Executive Officer",
+            "organization": "Code for Pakistan, PK",
+            "url": "https://codeforpakistan.org",
+            "sector": "Development"
+        },
         {
             "id": 1,
-            "period": "2018 till date",
+            "period": "2018 - 2023",
             "designation": "Principal Engineer",
             "organization": "AlphaX Decision Sciences, US",
             "url": "https://alphaxds.com",
@@ -119,11 +127,23 @@
     ],
     "experience": [
         {
+            "id": 0,
+            "period": "October 2023 till date",
+            "organization": "Code for Pakistan, PK",
+            "introduction": "Code for Pakistan is a civic innovation non-profit made up of a passionate community of technologists and talented professionals, driven by a strong belief in civic innovation and social impact that can move Pakistan forward in measurable and meaningful ways.",
+            "contributions": [
+                "Organizational restructuring and strategic planning for the next 5 years.",
+                "Developing standard operating procedures and policies for the all organizational functions.",
+                "Client relationship management and business development, including proposal writing and project management.",
+                "Leading community activities with volunteers and partners, including hackathons, workshops, and training sessions."
+            ]
+        },
+        {
             "id": 1,
-            "period": "Dec 2018 till date",
+            "period": "Dec 2018 – September 2023",
             "organization": "AlphaX Decision Sciences, US",
             "introduction": "AlphaX provides a suite of software and data management solutions for upstream oil and gas customers including independent and national oil companies and oilfield service companies.",
-            "items": [
+            "contributions": [
                 "Lead the development of proprietary oil field analytics and planning software.",
                 "Contributed towards the development of AI models for predicting oil well production in shale oil reserves in North America.",
                 "Developed multiple small-scale software solutions for clients in US and KSA."
@@ -134,7 +154,7 @@
             "period": "July 2017 – Nov 2018",
             "organization": "Apollo Telecom, Pakistan",
             "introduction": "Apollo Telecom is Pakistan’s premiere telecommunication services provider focusing on customer experience and integration. Apollo has been providing cutting edge IT solutions to over 150 customers for over 23 years.",
-            "items": [
+            "contributions": [
                 "Provided project management, client coordination, and technical expertise for multiple local telecommunication clients (Ufone, Telenor, NTC) and for various government agencies (DGI&P, PITC).",
                 "Lead a team of developers, quality and network engineers in the development and testing of products and delivery of projects.",
                 "Participated in the development of operational and financial management systems, polices and standard operating procedures, and IT support."
