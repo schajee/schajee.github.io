@@ -1,75 +1,13 @@
-# Nuxt UI Minimal Starter
+# About Me
 
-Look at [Nuxt docs](https://nuxt.com/docs/getting-started/introduction) and [Nuxt UI docs](https://ui.nuxt.com) to learn more.
+I am a technologist with over 20 years of professional experience designing and developing computing experiences spanning the public and private sectors. My diverse experience enables me to provide practical guidance and advice across programs and for engineering matters.
 
-## Setup
+Much of my passion for civic tech stems from my love of technology, which began early. Growing up at the advent of personal computers and during the age of the internet provided me with every opportunity to explore, learn, and grow as a programmer and designer. I used this experience to build websites and computer animations for customers at a relatively young age.
 
-Make sure to install the dependencies:
+Having worked on large-scale projects over the course of my career, I have both the technical knowledge and the confidence to tackle ambitious ventures. I have helped build the first computerized identity cards, machine-readable passports, and driving licenses in Pakistan. My work also involved building border-control systems, online payment systems, vehicle tracking systems, and more at the National Database and Registration Authority.
 
-```bash
-# npm
-npm install
+Following a study break in Malaysia, where I helped set up a virtual university, I worked on several projects as a consultant for the UN and other multilateral donor agencies. I conducted a census of the Afghan refugees in Pakistan and evaluated several international aid programs. As the resident technologist, I gained first-hand experience in data management and analysis from some of the leading experts in the field.
 
-# pnpm
-pnpm install
+I have developed innovative customer experience and engagement products for local telecommunication companies and government departments. Utilizing my knowledge in data analysis and user experience design, I have guided teams on improving multiple customer engagement products and processes.
 
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+I moonlight as Director of Engineering at AlphaX Decision Sciences, a US-based startup developing AI-assisted decision support systems for companies in the oil and energy sector. I have a background in Computing and Visual Effects for Film from schools in Pakistan and Malaysia. I live in Islamabad, Pakistan. 
