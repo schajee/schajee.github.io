@@ -72,10 +72,10 @@ const skills = {
            :ui="{ divide: 'divide-none', body: { padding: 'sm:p-4' }, background: 'bg-gray-100 dark:bg-gray-900', ring: 'ring-0', shadow: 'shadow-none', }">
     <div class="grid grid-cols-12">
       <template v-for="items, tech in skills">
-        <div class="col-span-2 font-semibold text-sm"> {{ tech }}: </div>
+        <div class="col-span-2 font-semibold text-sm print:text-xs"> {{ tech }}: </div>
         <div class="col-span-10">
           <template v-for="item in items">
-            <UBadge color="gray" class="whitespace-nowrap m-1">{{ item }}</UBadge>
+            <UBadge color="white" class="whitespace-nowrap m-1">{{ item }}</UBadge>
           </template>
         </div>
       </template>

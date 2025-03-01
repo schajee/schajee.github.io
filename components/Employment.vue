@@ -20,13 +20,13 @@ const employment = [
   },
   {
     "period": "2017 - 2018",
-    "designation": "Manager Technology and Development",
+    "designation": "Manager Technology & Development",
     "organization": "Apollo Telecom, PK",
     "sector": "Telecom"
   },
   {
     "period": "2016 - 2017",
-    "designation": "Manager Knowledge and Systems",
+    "designation": "Manager Knowledge & Systems",
     "organization": "AAN Associates, PK",
     "sector": "Development"
   },
@@ -45,13 +45,13 @@ const employment = [
   {
     "period": "2009 - 2010",
     "designation": "Consultant",
-    "organization": "Al-Madinah International University, MY",
+    "organization": "Al-Madinah University, MY",
     "sector": "Education"
   },
   {
     "period": "2001 - 2005",
     "designation": "System Design Engineer",
-    "organization": "National Database and Registration Authority, PK",
+    "organization": "NADRA, PK",
     "sector": "Government"
   }
 ]
@@ -62,7 +62,7 @@ const employment = [
     <UCard
            :ui="{ divide: 'divide-none', background: 'bg-gray-100 dark:bg-gray-900', body: { padding: '' }, header: { padding: 'pb-0' }, ring: 'ring-0', shadow: 'shadow-none', }">
       <UTable :rows="employment"
-              :ui="{ td: { base: 'whitespace-normal', padding: 'py-2' } }" />
+              :ui="{ td: { padding: 'py-2', size: 'text-sm print:text-xs', color: '' } }" />
     </UCard>
   </section>
 </template>

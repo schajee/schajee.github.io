@@ -88,11 +88,11 @@ const experience = [
            <SectionTitle title="Experience" icon="briefcase" />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
       <UCard v-for="item in experience"
-             :ui="{ divide: 'divide-none', background: 'bg-gray-100 dark:bg-gray-900', body: { base: 'text-sm' }, header: { padding: 'pb-0' }, ring: 'ring-0', shadow: 'shadow-none', }">
+             :ui="{ divide: 'divide-none', background: 'bg-gray-100 dark:bg-gray-900', body: { base: 'text-sm print:text-xs', padding: 'p2' }, header: { padding: 'pb-0' }, ring: 'ring-0', shadow: 'shadow-none', }">
         <template #header>
-          <div class="grid lg:grid-cols-2">
-            <h2 class="font-semibold">{{ item.organization }}</h2>
-            <p class="lg:text-right mt-2 lg:mt-0">{{ item.period }}</p>
+          <div class="flex">
+            <h2 class="font-semibold flex-1">{{ item.organization }}</h2>
+            <UBadge color="white">{{ item.period }}</UBadge>
           </div>
         </template>
         <p class="mb-4">{{ item.introduction }}</p>

@@ -1,5 +1,5 @@
 <template>
-  <section id="profile" class="mb-8 md:mb-12 xl:mb-16 text-sm">
+  <section id="profile" class="mb-8 md:mb-12 xl:mb-16 text-sm print:text-xs">
     <SectionTitle title="Profile" icon="user" />
     <p class="mb-4">
       I am a technologist with over 20 years of professional experience designing and developing computing experiences

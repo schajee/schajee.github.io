@@ -152,11 +152,12 @@ const projects = [
                   icon="document-check" />
     <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
       <UCard v-for="item in projects"
-             :ui="{ divide: 'divide-none', background: 'bg-gray-100 dark:bg-gray-900', body: { base: 'text-sm' }, header: { padding: 'pb-0' }, ring: 'ring-0', shadow: 'shadow-none', }">
+             :ui="{ divide: 'divide-none', background: 'bg-gray-100 dark:bg-gray-900', body: { base: 'text-sm print:text-xs' }, header: { padding: 'pb-0' }, ring: 'ring-0', shadow: 'shadow-none', }">
         <template #header>
-          <div class="grid lg:grid-cols-12">
-            <h2 class="font-semibold col-span-8">{{ item.project }} for {{ item.organization }}</h2>
-            <p class="lg:text-right col-span-4 mt-2 lg:mt-0">{{ item.period }}</p>
+          <h2 class="font-semibold col-span-8">{{ item.project }}</h2>
+          <div class="flex gap-1 mt-2 text-sm">
+            <span class="flex-1">{{ item.organization }}</span>
+            <UBadge color="white">{{ item.period }}</UBadge>
           </div>
         </template>
         <p>{{ item.description }}</p>

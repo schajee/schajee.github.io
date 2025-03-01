@@ -8,7 +8,7 @@ const education = [
   {
     "period": "1997 - 1999",
     "major": "Computer Science",
-    "university": "National University of Computing and Emerging Sciences, PK",
+    "university": "FAST-NUCES, PK",
   }
 ]
 </script>
@@ -17,7 +17,7 @@ const education = [
     <SectionTitle title="Education" icon="book-open" />
     <UCard
            :ui="{ divide: 'divide-none', background: 'bg-gray-100 dark:bg-gray-900', body: { padding: '' }, header: { padding: 'pb-0' }, ring: 'ring-0', shadow: 'shadow-none', }">
-      <UTable :rows="education" :ui="{ td: { base: 'whitespace-normal', padding: 'py-2' } }" />
+      <UTable :rows="education" :ui="{ td: { padding: 'py-2', size: 'text-sm print:text-xs', color: '' } }" />
     </UCard>
   </section>
 </template>

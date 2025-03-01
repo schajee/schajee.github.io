@@ -5,11 +5,17 @@ const expertise = [
   "(Software) Project Management",
   "Business Process Management",
   "Organisation and Strategy",
-  "Research / Evaluation",
+  "Financial Planning",
+  "Business Intelligence and Analytics",
+  "Social Research",
+  "Monitoring and Evaluation",
   "Data and Knowledge Management",
   "Software / Web Development",
+  "Data Science",
   "Machine Learning",
-  "Multimedia and Graphic Design"
+  "Multimedia and Graphic Design",
+  "Film Making",
+  "Editing and Compositing"
 ]
 </script>
 <template>
