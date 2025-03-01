@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/'
+    baseURL: '/schajee.github.io/'
   },
   ssr: false,
   devtools: { enabled: true },
