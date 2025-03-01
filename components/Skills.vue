@@ -66,7 +66,7 @@ const skills = {
 }
 </script>
 <template>
-  <section id="skills" class="my-8 md:my-12 xl:my-16">
+  <section id="skills" class="my-8 md:my-12 xl:my-16 print:break-before-page">
     <SectionTitle title="Skills" icon="bug-ant" />
     <UCard
            :ui="{ divide: 'divide-none', body: { padding: 'sm:p-4' }, background: 'bg-gray-100 dark:bg-gray-900', ring: 'ring-0', shadow: 'shadow-none', }">
